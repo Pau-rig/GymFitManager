@@ -156,12 +156,15 @@ public class HelloController {
         panelTabla.setVisible(true);
         panelTabla.setManaged(true);
 
-        limpiarCampos();
+
 
         Alert exito = new Alert(Alert.AlertType.INFORMATION);
         exito.setTitle("Alta completada");
+        exito.setHeaderText(null);
         exito.setContentText("Se ha dado de alta a " + txtNombre.getText() + " " +txtApellidos.getText() + ".");
+        exito.showAndWait();
 
+        limpiarCampos();
     }
 
     private String obtenerCuotaSeleccionada(){

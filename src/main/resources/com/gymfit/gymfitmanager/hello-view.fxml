@@ -405,8 +405,9 @@
                               </VBox>
                               <VBox fx:id="panelError" prefHeight="29.0" prefWidth="440.0" spacing="10.0" style="-fx-background-color: #FEF2F2; -fx-border-color: #DC2626; -fx-border-width: 1.5; fx-border-radius: 8; -fx-background-radius: 8; -fx-padding: 12;" visible="false">
                                  <children>
-                                    <Label style="-fx-text-fill: #991B1B; -fx-font-weight: bold;" text="No se ha podido guardar el socio: Faltan campos obligatorios o el formato es incorrecto." wrapText="true" />
-                                    <Label style="-fx-text-fill: #7F1D1D;" text="Solución: Completa todos los campos vacíos." wrapText="true" />
+                                    <Label style="-fx-text-fill: #991B1B; -fx-font-weight: bold;" text="No se ha podido guardar el socio: " wrapText="true" />
+                                    <Label style="-fx-text-fill: #7F1D1D;" text="Faltan campos obligatorios o el formato es incorrecto." wrapText="true" />
+                                    <Label layoutX="23.0" layoutY="51.0" style="-fx-text-fill: #7F1D1D;" text="Solución: Completa todos los campos vacíos." wrapText="true" />
                                  </children>
                                  <padding>
                                     <Insets top="10.0" />
